@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Change to your desired font family */
+}
+
+/* Change the font style of the navbar */
+.navbar {
+    font-family: 'Arial', sans-serif; /* Change to your desired font family */
+    font-size: 1rem; /* Change to your desired font size */
+}
+
+/* Change the font style of the navbar brand */
+.navbar-brand {
+    font-family: 'Georgia', serif; /* Change to your desired font family */
+    font-size: 1.25rem; /* Change to your desired font size */
+    font-weight: bold; /* Change to your desired font weight */
+}
+
+/* Change the font style of the navbar links */
+.navbar-nav .nav-link {
+    font-family: 'Arial', sans-serif; /* Change to your desired font family */
+    font-size: 1rem; /* Change to your desired font size */
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Change to your desired hover color */
+    background-color: #343a40; /* Change to your desired hover background color */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler:focus + .navbar-collapse .nav-link {
+    color: #f8f9fa; /* Change to your desired color when navbar is toggled */
+    background-color: #343a40; /* Change to your desired background color when navbar is toggled */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.headers{
+    margin-top:70px;
+}
